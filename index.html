@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ahmat – Développeur & CTO</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ══════════ NAV ══════════ -->
+  <header class="nav-bar">
+    <a href="index.html" class="logo">A<span>.</span></a>
+    <nav>
+      <a href="index.html" class="active">Accueil</a>
+      <a href="apropos.html">À Propos</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="nav-cta" onclick="location.href='contact.html'">Me contacter</button>
+  </header>
+
+  <!-- ══════════ HERO ══════════ -->
+  <main>
+    <section class="hero">
+      <div class="hero-bg">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="grid-overlay"></div>
+      </div>
+
+      <div class="hero-content">
+        <div class="badge">🇹🇩 N'Djaména, Tchad</div>
+        <h1>
+          <span class="line">Bonjour, je suis</span>
+          <span class="name-line">Ahmat</span>
+          <span class="line muted">Développeur Backend &amp; CTO</span>
+        </h1>
+        <p class="hero-desc">
+          Étudiant en L3 Génie Logiciel à l'<strong>ENASTIC</strong> et co-fondateur de
+          <strong>TCHAD PAY</strong> — la plateforme de paiement numérique unifiée du Tchad.
+          Je construis des solutions robustes qui ont un impact réel.
+        </p>
+        <div class="hero-actions">
+          <a href="portfolio.html" class="btn-primary">Voir mes projets</a>
+          <a href="apropos.html" class="btn-ghost">En savoir plus →</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><span class="stat-num">3+</span><span class="stat-label">Ans d'expérience</span></div>
+          <div class="stat-sep"></div>
+          <div class="stat"><span class="stat-num">10+</span><span class="stat-label">Projets réalisés</span></div>
+          <div class="stat-sep"></div>
+          <div class="stat"><span class="stat-num">1</span><span class="stat-label">Startup cofondée</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="avatar-ring">
+          <div class="avatar-inner">
+            <span class="avatar-initials">AH</span>
+          </div>
+        </div>
+        <div class="floating-card card-1">
+          <span class="fc-icon">⚡</span>
+          <span class="fc-text">Backend Developer</span>
+        </div>
+        <div class="floating-card card-2">
+          <span class="fc-icon">🏦</span>
+          <span class="fc-text">CTO · TCHAD PAY</span>
+        </div>
+        <div class="floating-card card-3">
+          <span class="fc-icon">🎓</span>
+          <span class="fc-text">L3 Génie Logiciel</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════ SKILLS SNAPSHOT ══════════ -->
+    <section class="skills-snap">
+      <p class="snap-label">Stack technologique</p>
+      <div class="skills-row">
+        <div class="skill-pill">Laravel</div>
+        <div class="skill-pill">Java EE</div>
+        <div class="skill-pill">Python</div>
+        <div class="skill-pill">MySQL</div>
+        <div class="skill-pill">Linux</div>
+        <div class="skill-pill">Docker</div>
+        <div class="skill-pill">HTML/CSS</div>
+        <div class="skill-pill">WordPress</div>
+      </div>
+    </section>
+
+    <!-- ══════════ HIGHLIGHT PROJECTS ══════════ -->
+    <section class="highlights">
+      <div class="section-head">
+        <h2>Projets phares</h2>
+        <a href="portfolio.html" class="see-all">Voir tout →</a>
+      </div>
+      <div class="cards-grid">
+        <article class="project-card featured">
+          <div class="pc-tag">Fintech · Startup</div>
+          <h3>TCHAD PAY</h3>
+          <p>Plateforme de paiement numérique unifiée pour le Tchad — 5 modules de service, architecture microservices, API REST.</p>
+          <div class="pc-stack"><span>Laravel</span><span>MySQL</span><span>API REST</span></div>
+          <a href="portfolio.html" class="pc-link">Voir le projet →</a>
+        </article>
+        <article class="project-card">
+          <div class="pc-tag">Infrastructure · VDI</div>
+          <h3>Déploiement VDI</h3>
+          <p>Infrastructure bureau virtuel avec Apache Guacamole, KVM/libvirt, OpenLDAP et Nginx HTTPS.</p>
+          <div class="pc-stack"><span>Ubuntu</span><span>KVM</span><span>Nginx</span></div>
+          <a href="portfolio.html" class="pc-link">Voir le projet →</a>
+        </article>
+        <article class="project-card">
+          <div class="pc-tag">Machine Learning</div>
+          <h3>Projets ML Python</h3>
+          <p>Régression logistique, Random Forest, Naive Bayes et KNN — 4 mini-projets complets avec rapports.</p>
+          <div class="pc-stack"><span>Python</span><span>Scikit-learn</span><span>Jupyter</span></div>
+          <a href="portfolio.html" class="pc-link">Voir le projet →</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- ══════════ FOOTER ══════════ -->
+  <footer class="site-footer">
+    <p>© 2026 Ahmat · Conçu avec passion à N'Djaména 🇹🇩</p>
+    <div class="footer-links">
+      <a href="index.html">Accueil</a>
+      <a href="apropos.html">À Propos</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </footer>
+
+</body>
+</html>
